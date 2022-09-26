@@ -1,0 +1,79 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  margin-bottom: 8rem;
+  padding-top: 8rem;
+  padding: 0 3rem 0 3rem;
+}
+
+.portfolio span:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.portfolio span:nth-of-type(2) {
+  font-size: 2rem;
+  color: var(--orange);
+}
+
+.portfolio .swiper {
+  overflow: visible!important;
+}
+
+.portfolio-slider {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 100%;
+  height: 22rem;
+}
+
+.project-card {
+  width: 100%;
+  height: 19rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.portfolio img {
+  width: 50%;
+  height: 19rem;
+}
+
+.portfolio .swiper-pagination-bullet{
+  width: 15px;
+  height: 15px;
+  background: var(--purple);
+  opacity: 1;
+}
+
+.portfolio .swiper-pagination-bullet-active{
+  width: 20px;
+  height: 20px;
+  background: var(--orange);
+  opacity: 1;
+}

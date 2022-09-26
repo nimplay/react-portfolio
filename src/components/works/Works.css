@@ -1,0 +1,137 @@
+.works {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 70vh;
+  margin-bottom: 4rem;
+}
+
+.w-right {
+  position: relative;
+}
+
+.w-mainCircle {
+  left: 9rem;
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+  box-shadow: var(--smboxShadow);
+  top: 2rem;
+  background-color: white;
+  z-index: 2;
+}
+
+.w-mainCircle>* {
+  position: absolute;  
+}
+
+.w-mainCircle>:nth-child(1) {
+  left: 6rem;
+  top: -3rem;
+}
+
+.w-mainCircle>:nth-child(2) {
+  left: -3rem;
+  top: 5rem;
+}
+
+.w-mainCircle>:nth-child(3) {
+  left: 6rem;
+  top: 5rem;
+}
+
+.w-mainCircle>:nth-child(4) {
+  left: 15rem;
+  top: 5rem;
+}
+
+.w-mainCircle>:nth-child(5) {
+  left: 6rem;
+  top: 13rem;
+}
+
+.w-secCircle {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+
+.w-secCircle>img {
+  transform: scale(0.9);
+}
+
+.w-backCircle {
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.blueCircle {  
+  left: 9rem;
+  top: -2rem;
+  z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .works {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+
+  }
+  .awesome {
+    transform: scale(0.8);
+  }
+  .w-right {
+    left: -3rem;
+    top: -1rem;
+    transform: scale(0.8);
+  }
+  .w-mainCircle {
+    left: 4rem;
+    width: 12rem;
+    height: 12rem;
+  }
+  .w-mainCircle>:nth-child(1) {
+    left: 4rem;
+    top: -2rem;
+  }
+  .w-mainCircle>:nth-child(2) {
+    left: -2rem;
+    top: 3rem;
+  }
+  .w-mainCircle>:nth-child(3) {
+    left: 4rem;
+    top: 3rem;
+  }
+  .w-mainCircle>:nth-child(4) {
+    left: 10rem;
+    top: 3rem;
+  }
+  .w-mainCircle>:nth-child(5) {
+    left: 4rem;
+    top: 9rem;
+  }
+  .w-secCircle {
+    width: 4rem;
+    height: 4rem;
+  }
+  .w-backCircle {
+    width: 18rem;
+    height: 18rem;
+  }
+  .blueCircle {
+    left: 4rem;
+    top: -1rem;
+  }
+}

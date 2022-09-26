@@ -1,0 +1,181 @@
+.intro {
+  display: flex;
+  height: 80vh;
+  padding-top: 15rem;
+  gap: 2rem;
+}
+
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.i-name>:nth-child(1) {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.i-name>:nth-child(2) {
+  color: var(--orange);
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.i-name>:nth-child(3) {
+  font-weight: 100;
+  font-size: 1rem;
+  color: var(--gray);
+  margin-top: 10px;
+}
+
+.i-button {
+  width: 6rem;
+  height: 2rem;
+}
+
+.i-icons {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.i-icons>*{
+  transition: 0.2s;
+  transform: scale(0.8);
+}
+
+.i-icons>*:hover{
+  transition: 0.2s;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+  align-items: center;
+}
+
+.i-right>* {
+  position: absolute;
+  z-index: 1;
+}
+
+.i-right>:nth-child(1) {
+  transform: scale(1);
+    top: -17%;
+}
+
+.i-right>:nth-child(2) {
+  transform: scale(0.67);
+    left: -8rem;
+    top: -14.2rem;
+}
+
+.i-right>:nth-child(4) {
+  transform: scale(1);
+  left: -5%;
+  top: -10%;
+}
+
+.nimplay-logo {
+  width: 20rem;
+  border-radius: 100%;   
+}
+
+.texture {
+  width: 30rem;
+}
+
+.boy {
+  width: 45rem;
+}
+
+.i-right2 {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    padding-top: 1rem;
+    height: 40rem;
+  }
+  .i-left {
+    transform: scale(0.8);
+    left: -1rem;  
+    width: 100%;  
+  }
+
+  .i-icons {
+    position: relative;
+    margin-top: 0rem;
+    transform: scale(0.8);
+    gap: 10px;
+    left: -1.5rem;
+  }
+
+  .i-icons a {
+    width: 60px;
+  }
+
+  .i-icons a img {
+    width: 70px;
+  }
+
+  .i-icons a img:hover {
+    width: 80px;
+  }
+
+  .i-right {
+   display: none;
+  }
+
+  .i-right2 {
+    display: flex;
+    transform: scale(0.5);
+    left: -3rem;
+    top: -4rem;
+    position: relative;
+  }
+
+  .i-right2>* {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .i-right2>:nth-child(1) {
+    transform: scale(1);
+      top: -17%;
+  }
+  
+  .i-right2>:nth-child(2) {
+    transform: scale(0.67);
+      left: -8rem;
+      top: -10.5rem;
+  }  
+
+  .i-right2>:nth-child(3) {
+    position: relative;
+  }
+
+  .i-right2>:nth-child(4) {
+    transform: scale(1);
+    left: -35%;
+    top: -1%;
+  }
+  
+  .nimplay-logo {
+    width: 18rem;
+    border-radius: 100%;   
+  } 
+ 
+}
