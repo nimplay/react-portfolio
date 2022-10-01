@@ -103,3 +103,82 @@
   font-size: 1.1rem;
   width: 6rem;
 }
+
+@media screen and (max-width: 480px) {
+
+  .portfolio {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .project-card {
+    width: 80%;
+    height: 30rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 8px solid #ebebeb;
+    padding: 1rem;
+
+  }
+
+  .project-description {
+    width: 100%;
+  }
+
+  .project-description span:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+
+  .project-description span:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+
+  .p-buttons {
+    width: 100%;
+  }
+
+  .portfolio img {
+    width: 80%;
+    height: 10rem;
+  }
+
+  .portfolio .swiper-pagination{
+    top: -2rem;
+  }
+  .portfolio .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    background: var(--purple);
+    opacity: 1;
+  }
+
+  .portfolio .swiper-pagination-bullet-active{
+    width: 15px;
+    height: 15px;
+    background: var(--orange);
+    opacity: 1;
+  }
+
+  .tech {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0.1rem;
+    width: 100%;
+  }
+
+  .tech-name {
+    font-size: 0.5rem;
+    color: var(--orange);
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    border-radius: 50px;
+    border: 2px solid var(--orange);
+  }
+
+  .p-btn {
+    font-size: 0.8rem;
+    width: 3rem;
+  }
+}
