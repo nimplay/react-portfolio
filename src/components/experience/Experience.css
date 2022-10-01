@@ -41,7 +41,7 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 880px){
   .experience {
     transform: scale(0.5);
     gap: 3rem;

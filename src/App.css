@@ -48,7 +48,13 @@ body {
   border: 1px solid var(--orange);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1500px) {
+  .App {
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
   .App {
     padding: 0;
   }

@@ -103,7 +103,22 @@
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1500px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .i-right {
+    display: flex;
+    transform: scale(0.7);
+    left: 3rem;
+    top: 2rem;
+    position: relative;
+  }
+
+}
+
+@media screen and (max-width: 880px) {
   .intro {
     flex-direction: column;
     padding-top: 1rem;

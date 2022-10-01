@@ -39,6 +39,7 @@
   gap: 1.5rem;
   margin-right: 4rem;
   list-style: none;
+  justify-content: flex-end;
 }
 
 .li {
@@ -52,7 +53,17 @@
   color: var(--orange);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1500px) {
+  .n-list {
+    display: none;
+  }
+  .n-button {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 880px) {
   .n-list {
     display: none;
   }
