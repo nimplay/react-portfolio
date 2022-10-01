@@ -50,24 +50,24 @@
   .services {
     margin-top: 0;
     flex-direction: column;
-    height: 155vh;
+    height: 130vh;
     padding: 0;
     padding-left: 1rem;
   }
 
   .cards {
     display: none;
-  } 
+  }
   .Mobile-version-cards {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
-  } 
+  }
 
   .mobile-card {
     transform: scale(0.7);
     width: max-content;
     height: 14rem;
-  }  
+  }
 }

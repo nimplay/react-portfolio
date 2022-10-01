@@ -30,12 +30,12 @@
   box-shadow: var(--boxShadow);
 }
 
-.achivement span:nth-of-type(1) {  
+.achivement span:nth-of-type(1) {
   font-weight: 100;
   font-size: 1.5rem;
 }
 
-.achivement span:nth-of-type(2) {  
+.achivement span:nth-of-type(2) {
   font-weight: 100;
   color: var(--orange);
   font-size: 1.5rem;
@@ -46,15 +46,15 @@
     transform: scale(0.5);
     gap: 3rem;
     margin-bottom: 0;
-    height: 20vh;    
+    height: 20vh;
   }
 
-  .achivement span:nth-of-type(1) {  
+  .achivement span:nth-of-type(1) {
     font-weight: 100;
     font-size: 1.3rem;
   }
-  
-  .achivement span:nth-of-type(2) {  
+
+  .achivement span:nth-of-type(2) {
     font-weight: 100;
     color: var(--orange);
     font-size: 1.2rem;
