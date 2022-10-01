@@ -4,7 +4,6 @@ import Msdoo from '../../img/msdoo2.png'
 import Canaway from '../../img/canawaylogo.png'
 import Nimplay from '../../img/nimplayLogo.jpg'
 import Microverse from '../../img/microverse.png'
-import Newlogo from '../../img/newLogo.png'
 import David from '../../img/davidLogo.jpeg'
 import Background from '../../img/2.png'
 import { themeContext } from '../../Context';
