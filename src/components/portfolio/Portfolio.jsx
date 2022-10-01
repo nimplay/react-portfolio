@@ -72,7 +72,7 @@ const Portfolio = () => {
 
         <SwiperSlide>
           <div className="project-card">
-            <img src={Poke} alt="poke-api" />
+            <img src={Poke} alt="pokeapi" />
             <div className="project-description">
             <span style={{
         backgroundColor: darkMode ? "black" : "white",
