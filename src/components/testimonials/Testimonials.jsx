@@ -4,7 +4,6 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import { Pagination } from "swiper";
 import 'swiper/css';
 import "swiper/css/pagination";
-import Client from '../../img/User.svg'
 import David from '../../img/david.jpeg'
 import Mirwil from '../../img/mirwil.jpeg'
 import { themeContext } from '../../Context';
