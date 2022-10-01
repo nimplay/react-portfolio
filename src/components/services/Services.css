@@ -2,7 +2,6 @@
   padding: 8rem 3rem 0 3rem;
   display : flex;
   height: 90vh;
-  margin-bottom: 8rem;
 }
 
 .awesome {
@@ -50,7 +49,7 @@
   .services {
     margin-top: 0;
     flex-direction: column;
-    height: 130vh;
+    height: max-content;
     padding: 0;
     padding-left: 1rem;
   }
