@@ -3,7 +3,7 @@
 
 ## deploy
 
-To get the deploy version [click](https://63386b3fe46692160183494f--nimplayportfolio.netlify.app/)
+To get the deploy version [click](https://main--nimplayportfolio.netlify.app/)
 
 ## Built With
 - HTML
