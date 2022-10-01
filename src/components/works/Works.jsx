@@ -1,6 +1,11 @@
 import React from 'react';
 import './Works.css';
-import Work from '../../img/Work.png'
+import Msdoo from '../../img/msdoo2.png'
+import Canaway from '../../img/canawaylogo.png'
+import Nimplay from '../../img/nimplayLogo.jpg'
+import Microverse from '../../img/microverse.png'
+import Newlogo from '../../img/newLogo.png'
+import David from '../../img/davidLogo.jpeg'
 import Background from '../../img/2.png'
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
@@ -10,7 +15,7 @@ const Works = () => {
   const transition = {duration: 4, type: 'spring'}
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  return ( 
+  return (
     <div className="works">
       <div className="awesome">
       <span
@@ -25,35 +30,35 @@ const Works = () => {
         backgroundColor: darkMode ? "black" : "white",
         color: darkMode ? "white" : "",
       }}
-      >My services range from web development, 
-        mobile applications, databases,<br /> 
-        video game development using engines 
-        such as Unreal Egine or Unity Engine, <br /> 
+      >My services range from web development,
+        mobile applications, databases,<br />
+        video game development using engines
+        such as Unreal Egine or Unity Engine, <br />
         Music and sound effects for web environments.
-      </span>    
+      </span>
       <button className="button s-button">Hire me</button>
     </div>
     <div className="w-right">
-      <motion.div 
+      <motion.div
       initial={{rotate: 60}}
       whileInView={{rotate: 0}}
       viewport={{margin:'-40px'}}
       transition={transition}
       className="w-mainCircle">
         <div className="w-secCircle">
-          <img src={Work} alt="" />
+          <img src={Canaway} alt="canaway"/>
         </div>
         <div className="w-secCircle">
-          <img src={Work} alt="" />
+          <img src={Nimplay} alt="nimplay" />
         </div>
         <div className="w-secCircle">
-          <img src={Work} alt="" />
+          <img src={Msdoo} alt="nimplay" />
         </div>
         <div className="w-secCircle">
-          <img src={Work} alt="" />
+          <img src={Microverse} alt="microverse" />
         </div>
         <div className="w-secCircle">
-          <img src={Work} alt="" />
+          <img src={David} alt="" />
         </div>
       </motion.div>
       <img src={Background} alt="" className="w-backCircle blueCircle"/>
@@ -61,5 +66,5 @@ const Works = () => {
     </div>
    );
 }
- 
+
 export default Works;

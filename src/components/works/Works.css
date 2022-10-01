@@ -22,7 +22,7 @@
 }
 
 .w-mainCircle>* {
-  position: absolute;  
+  position: absolute;
 }
 
 .w-mainCircle>:nth-child(1) {
@@ -65,6 +65,8 @@
 
 .w-secCircle>img {
   transform: scale(0.9);
+  width: 6rem;
+  border-radius: 100%;
 }
 
 .w-backCircle {
@@ -75,7 +77,7 @@
   z-index: -1;
 }
 
-.blueCircle {  
+.blueCircle {
   left: 9rem;
   top: -2rem;
   z-index: 1;

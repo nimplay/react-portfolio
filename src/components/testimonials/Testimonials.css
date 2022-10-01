@@ -11,7 +11,7 @@
 }
 
 .t-heading {
-  align-self: start; 
+  align-self: start;
 }
 .t-heading>* {
  font-size: 2rem;
@@ -27,20 +27,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 1rem;
   width: 30rem;
-  height: 12rem;
+  height: 18rem;
   background: rgba(250, 250, 250, 0.3);
   border: 10px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 30px;
+  gap: 1rem;
 }
 
 .testimonial>img {
   width: 6rem;
   height: 6rem;
   border-radius: 100%;
-} 
+}
 
 .testimonial>span {
   color: var(--gray);

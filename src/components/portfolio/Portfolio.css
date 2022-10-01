@@ -31,11 +31,11 @@
 
 .portfolio-slider .swiper-slide {
   width: 100%;
-  height: 22rem;
+  height: 28rem;
 }
 
 .project-card {
-  width: 100%;
+  width: 80%;
   height: 19rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 20px;
@@ -43,6 +43,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  gap: 2rem;
+  border: 8px solid #ebebeb;
+  padding: 2rem;
+
 }
 
 .project-description {
@@ -76,4 +80,26 @@
   height: 20px;
   background: var(--orange);
   opacity: 1;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.tech-name {
+  font-size: 1.5rem;
+  color: var(--orange);
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  border-radius: 50px;
+  border: 4px solid var(--orange);
+}
+
+.p-btn {
+  font-size: 1.1rem;
+  width: 6rem;
 }

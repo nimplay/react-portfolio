@@ -21,7 +21,7 @@
   font-weight: bold;
 }
 
-.n-right {  
+.n-right {
   display: flex;
   flex: 1;
   align-items: center;
@@ -39,6 +39,12 @@
   gap: 1.5rem;
   margin-right: 4rem;
   list-style: none;
+}
+
+.li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 .li:hover {

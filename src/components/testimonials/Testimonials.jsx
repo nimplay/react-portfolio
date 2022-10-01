@@ -5,6 +5,7 @@ import { Pagination } from "swiper";
 import 'swiper/css';
 import "swiper/css/pagination";
 import Client from '../../img/User.svg'
+import David from '../../img/david.jpeg'
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 
@@ -14,8 +15,8 @@ const Testimonials = () => {
   const darkMode = theme.state.darkMode;
   const client = [
     {
-      img : Client,
-      review : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      img : David,
+      review : "My company has been working with Nimrod Acosta since 2019.  Thanks to that my webpage has evolved in a very positive way through the years. I recently worked with him to update my website. I have been mainly working with Nimrod . We are beyond pleased with Nimrod's impeccable service. He is extremely helpful in guiding us through the whole process. He is very knowledgeable. He pays close attention to details. He is also very patient in training us on how to use the new administration system. Overall, we are very pleased with Nimrod Acosta Web design.",
     },
     {
       img: Client,
@@ -27,12 +28,12 @@ const Testimonials = () => {
     }
   ];
 
-  return ( 
+  return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
         <span>Clients always get </span>
         <span>Execeptional Work </span>
-        <span>From Me.</span>  
+        <span>From Me.</span>
       </div>
       <Swiper
        slidesPerView={1}
@@ -58,5 +59,5 @@ const Testimonials = () => {
     </div>
    );
 }
- 
+
 export default Testimonials;
