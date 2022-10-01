@@ -6,9 +6,10 @@ import Nimplay from '../../img/nimplayLogo.jpg'
 import Microverse from '../../img/microverse.png'
 import David from '../../img/davidLogo.jpeg'
 import Background from '../../img/2.png'
-import { themeContext } from '../../Context';
-import { useContext } from 'react';
+import { themeContext } from '../../Context'
+import { useContext } from 'react'
 import {motion} from 'framer-motion'
+import {Link} from 'react-scroll'
 
 const Works = () => {
   const transition = {duration: 4, type: 'spring'}
@@ -35,7 +36,9 @@ const Works = () => {
         such as Unreal Egine or Unity Engine, <br />
         Music and sound effects for web environments.
       </span>
-      <button className="button s-button">Hire me</button>
+      <Link spy={true} smooth={true} to="contact-form" activeClass="activeClass">
+        <button className="button w-button">Hire Me</button>
+      </Link>
     </div>
     <div className="w-right">
       <motion.div

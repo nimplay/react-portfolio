@@ -9,6 +9,14 @@
   position: relative;
 }
 
+.w-button {
+  width: 6rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  padding-top: 0.4rem;
+  margin-top: 0.5rem;
+}
+
 .w-mainCircle {
   left: 9rem;
   position: relative;
