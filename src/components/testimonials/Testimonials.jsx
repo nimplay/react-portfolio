@@ -22,10 +22,6 @@ const Testimonials = () => {
     {
       img: Mirwil,
       review : "The reliable services of Mr. Nimrod Acosta are vital in my business as an illustrator.  Delegating all the technical (and sometimes tedious for me!) aspects of maintaining my website and online store is a relief, as it allows me to stay focused on my creative work, knowing that everything is in order.",
-    },
-    {
-      img: Client,
-      review : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     }
   ];
 

@@ -9,7 +9,7 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  return ( 
+  return (
     <div className="n-wrapper"
     style={{
       backgroundColor: darkMode ? "black" : "white",
@@ -39,12 +39,14 @@ const Navbar = () => {
           </Link>
           </ul>
         </div>
+        <Link spy={true} smooth={true} to="contact-form" activeClass="activeClass">
         <button className="button n-button">Contact Me</button>
+        </Link>
       </div>
     </div>
    );
 }
- 
+
 export default Navbar;
 
 
