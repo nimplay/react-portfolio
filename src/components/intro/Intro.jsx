@@ -54,7 +54,7 @@ const Intro = () => {
           <a href="https://www.facebook.com/NimplayGame">
             <img src={Facebook} alt="Facebook" />
           </a>
-          <a href="linkedin.com/in/nimrod-acosta">
+          <a href="https://www.linkedin.com/in/nimrod-acosta/">
             <img src={Linkedin} alt="Linkedin" />
           </a>
           <a href="https://angel.co/u/nimrod-acosta">
