@@ -45,7 +45,7 @@ const Intro = () => {
           </span>
         </div>
         <Link spy={true} smooth={true} to="contact-form" activeClass="activeClass">
-        <button className="button i-button">Hire Me</button>
+        <button className="button i-button">Contact Me</button>
         </Link>
         <div className="i-icons">
           <a href="https://github.com/nimplay">

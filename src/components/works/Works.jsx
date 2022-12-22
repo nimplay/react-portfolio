@@ -37,7 +37,7 @@ const Works = () => {
         Music and sound effects for web environments.
       </span>
       <Link spy={true} smooth={true} to="contact-form" activeClass="activeClass">
-        <button className="button w-button">Hire Me</button>
+        <button className="button w-button">Contact Me</button>
       </Link>
     </div>
     <div className="w-right">
