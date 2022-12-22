@@ -14,7 +14,6 @@ import Nimplay from '../../img/newLogo.png'
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 import {motion} from 'framer-motion'
-import {Link} from 'react-scroll'
 
 const Intro = () => {
 
@@ -44,9 +43,6 @@ const Intro = () => {
             do Quality work
           </span>
         </div>
-        <Link spy={true} smooth={true} to="contact-form" activeClass="activeClass">
-        <button className="button i-button">Contact Me</button>
-        </Link>
         <div className="i-icons">
           <a href="https://github.com/nimplay">
             <img src={Github} alt="Github" />
