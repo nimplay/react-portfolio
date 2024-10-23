@@ -12,7 +12,7 @@ const Services = () => {
   const transition = {duration: 4, type: 'spring'}
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  return ( 
+  return (
   <div className="services" id="services">
     <div className="awesome">
       <span
@@ -27,18 +27,18 @@ const Services = () => {
         backgroundColor: darkMode ? "black" : "white",
         color: darkMode ? "white" : "",
       }}
-      >My services range from web development, 
-        mobile applications, databases,<br /> 
-        video game development using engines 
-        such as Unreal Egine or Unity Engine, <br /> 
+      >My services range from web development,
+        mobile applications, databases,<br />
+        video game development using engines
+        such as Unreal Egine or Unity Engine, <br />
         Music and sound effects for web environments.
       </span>
-      <a href="https://drive.google.com/file/d/1vAN1uGaKW8Qdm37xp8GnRC6a1lg-M0TF/view?usp=sharing" >
+      <a href="https://drive.google.com/file/d/1BWzm5iECNtHo7tfXQqN-qbCd-M9zxbu-/view?usp=sharing" >
         <button className="button s-button">Download CV</button>
       </a>
     </div>
     <div className="cards">
-     <motion.div 
+     <motion.div
      initial={{left:'30rem'}}
      whileInView={{left:'15rem'}}
      transition={transition}
@@ -46,10 +46,10 @@ const Services = () => {
        <Card
        emoji={Computer}
        heading={"Frontend Development"}
-       details={"I can create a beautiful and scalable SPA using HTML, CSS, React.js, Redux, Bootstrap, Material UI, etc."}
+       details={"I can create a beautiful and scalable SPA using HTML, CSS, Tailwind, SASS, React, Redux, Bootstrap, Material UI, etc."}
        />
      </motion.div>
-     <motion.div 
+     <motion.div
      initial={{left:'-20rem', top:'14rem'}}
      whileInView={{left:'-8rem', top:'14rem'}}
      transition={transition}
@@ -57,10 +57,10 @@ const Services = () => {
        <Card
        emoji={Work}
        heading={"Backend Development"}
-       details={"I can develop a backend using Node.js, Ruby & Rails, Ruby, MySQL, etc."}
+       details={"I can develop a backend using Node.js, Ruby & Rails, Ruby, MySQL, Phytom, etc."}
        />
      </motion.div>
-     <motion.div 
+     <motion.div
      initial={{left:'25rem', top:'25rem'}}
      whileInView={{left:'11rem', top:'21rem'}}
      transition={transition}
@@ -70,25 +70,25 @@ const Services = () => {
        heading={"App & Videogames Development"}
        details={"I can develop a mobile application using React Native, Unreal engine, Unity Engine, etc."}
        />
-     </motion.div>   
+     </motion.div>
     </div>
      {/*Mobile version*/}
 <div className="Mobile-version-cards">
-     <div className="mobile-card"> 
+     <div className="mobile-card">
       <Card
         emoji={Computer}
         heading={"Frontend Development"}
-        details={"I can create a beautiful and scalable SPA using HTML, CSS, React.js, Redux, Bootstrap, Material UI, etc."}
+        details={"I can create a beautiful and scalable SPA using HTML, CSS, Tailwind, SASS, React, Redux, Bootstrap, Material UI, etc."}
        />
      </div>
-     <div className="mobile-card"> 
+     <div className="mobile-card">
       <Card
         emoji={Work}
         heading={"Backend Development"}
-        details={"I can develop a backend using Node.js, Ruby & Rails, Ruby, MySQL, etc."}
+        details={"I can develop a backend using Node.js, Ruby & Rails, Ruby, MySQL, Phytom, etc."}
        />
      </div>
-     <div className="mobile-card"> 
+     <div className="mobile-card">
       <Card
         emoji={Unreal}
         heading={"App & Videogames Development"}
@@ -99,5 +99,5 @@ const Services = () => {
   </div>
   );
 }
- 
+
 export default Services;

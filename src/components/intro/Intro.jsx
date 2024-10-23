@@ -10,6 +10,7 @@ import Background from '../../img/2.png'
 import Nim from '../../img/Hombre_transp.png'
 import Work from '../../img/Work.png'
 import ThumbsUp from '../../img/thumbs-up.png'
+import VideoG from '../../img/VideoG.png'
 import Nimplay from '../../img/newLogo.png'
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
@@ -44,19 +45,19 @@ const Intro = () => {
           </span>
         </div>
         <div className="i-icons">
-          <a href="https://github.com/nimplay">
+          <a href="https://github.com/nimplay" target='_blank' rel='noreferrer'>
             <img src={Github} alt="Github" />
           </a>
-          <a href="https://www.facebook.com/NimplayGame">
+          <a href="https://www.facebook.com/NimplayGame" target='_blank' rel='noreferrer'>
             <img src={Facebook} alt="Facebook" />
           </a>
-          <a href="https://www.linkedin.com/in/nimrod-acosta/">
+          <a href="https://www.linkedin.com/in/nimrod-acosta/" target='_blank' rel='noreferrer'>
             <img src={Linkedin} alt="Linkedin" />
           </a>
-          <a href="https://angel.co/u/nimrod-acosta">
+          <a href="https://angel.co/u/nimrod-acosta" target='_blank' rel='noreferrer'>
             <img src={Angelist} alt="Angelist" />
           </a>
-          <a href="https://medium.com/@nimrod7day">
+          <a href="https://medium.com/@nimrod7day" target='_blank' rel='noreferrer'>
             <img src={Medium} alt="Medium" />
           </a>
 
@@ -80,6 +81,8 @@ const Intro = () => {
       >
         <FloatingDiv image={Work} txt1="Web" txt2="Developer"/>
       </motion.div>
+
+
       <motion.div
       initial={{top: '18rem', left:'0'}}
       whileInView={{left:'10%'}}
@@ -87,11 +90,18 @@ const Intro = () => {
       style={{top: '18rem', left:'0'}}>
       <FloatingDiv image={ThumbsUp} txt1="Great Desing" txt2="Award"/>
       </motion.div>
+
+      <motion.div
+      initial={{top: '12rem', left:'5rem'}}
+      whileInView={{left:'70%'}}
+      transition={transition}
+      style={{top: '12rem', left:'5rem'}}>
+      <FloatingDiv image={VideoG} txt1="Game" txt2="Developer"/>
+      </motion.div>
       </div>
       <div className="i-right2">
       <img src={Background} alt="Vector" className="texture"/>
       <img src={Nim} alt="Boy"  className="boy"/>
-
       <motion.img
       initial={{left:'-10%', top: '-70%'}}
       whileInView={{left: '-30%',  top: '-70%'}}

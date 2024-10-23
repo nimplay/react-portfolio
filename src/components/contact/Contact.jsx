@@ -14,18 +14,16 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_mf4k97g', 'template_n4cd62e', form.current, '1KCDwhIPMVYpMRVQW')
       .then((result) => {
-          setDone(true); 
-          e.target.reset();         
-          
+          setDone(true);
+          e.target.reset();
       }, (error) => {
-        e.target.reset();  
+        e.target.reset();
       });
   };
 
-  return ( 
+  return (
     <div className="contact-form">
       <div className="c-left">
         <div className="awesome">
@@ -50,5 +48,5 @@ const Contact = () => {
     </div>
    );
 }
- 
+
 export default Contact;

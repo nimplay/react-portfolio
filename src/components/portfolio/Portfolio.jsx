@@ -6,6 +6,7 @@ import SchoolMusic from '../../img/SchoolMusic.png';
 import Tetris from '../../img/Tetris.png';
 import Webapp from '../../img/webapp.png';
 import Poke from '../../img/poke.png';
+import ImmilandScreem from '../../img/ImmilandScreem.png';
 import 'swiper/css';
 import "swiper/css/pagination";
 import { themeContext } from '../../Context';
@@ -34,6 +35,36 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <div className="project-card">
+            <img src={ImmilandScreem} alt="img" />
+            <div className="project-description">
+            <span style={{
+        backgroundColor: darkMode ? "black" : "white",
+        color: darkMode ? "white" : "",
+      }} >Immiland</span>
+            <span>
+            Immigration process management platform.
+            </span>
+            <span>Project carried out for a Canadian immigration company.
+              Automated management of visa processes, translations, internal messaging, immigration queries,
+              integration with multiple management platforms.</span>
+              <div className="tech">
+                <h3 className="tech-name">React</h3>
+                <h3 className="tech-name">Tailwind</h3>
+                <h3 className="tech-name">NestJs</h3>
+                <h3 className="tech-name">PostgresQL</h3>
+                <h3 className="tech-name">API'S</h3>
+              </div>
+            <div className="p-buttons" >
+              <a href="https://immiland.app" target='_blank' rel='noreferrer'>
+                <button className="button p-btn">Link</button>
+              </a>
+            </div>
+            </div>
+
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="project-card">
             <img src={Webapp} alt="img" />
             <div className="project-description">
             <span style={{
@@ -57,16 +88,14 @@ const Portfolio = () => {
                 <h3 className="tech-name">GitHub</h3>
               </div>
             <div className="p-buttons" >
-              <a href="https://github.com/nimplay/api-webapp">
+              <a href="https://github.com/nimplay/api-webapp" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Repo</button>
               </a>
-              <a href="https://nimplay.github.io/api-webapp/dist/">
+              <a href="https://nimplay.github.io/api-webapp/dist/" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Live</button>
               </a>
-
             </div>
             </div>
-
           </div>
         </SwiperSlide>
 
@@ -91,16 +120,14 @@ const Portfolio = () => {
                 <h3 className="tech-name">GitHub</h3>
               </div>
             <div className="p-buttons" >
-              <a href="https://github.com/nimplay/metrics-webapp">
+              <a href="https://github.com/nimplay/metrics-webapp" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Repo</button>
               </a>
-              <a href="https://tourmaline-crisp-2b65af.netlify.app/">
+              <a href="https://tourmaline-crisp-2b65af.netlify.app/" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Live</button>
               </a>
-
             </div>
             </div>
-
           </div>
         </SwiperSlide>
 
@@ -125,16 +152,14 @@ const Portfolio = () => {
                 <h3 className="tech-name">GitHub</h3>
               </div>
             <div className="p-buttons" >
-              <a href="https://github.com/nimplay/tetris">
+              <a href="https://github.com/nimplay/tetris" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Repo</button>
               </a>
-              <a href="https://nimplay.github.io/tetris/">
+              <a href="https://nimplay.github.io/tetris/" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Live</button>
               </a>
-
             </div>
             </div>
-
           </div>
         </SwiperSlide>
 
@@ -160,16 +185,11 @@ const Portfolio = () => {
                 <h3 className="tech-name">Google Play Store</h3>
               </div>
             <div className="p-buttons" >
-              <a href="https://play.google.com/store/apps/details?id=com.nimplay.School_music&hl=en&gl=US">
-                <button className="button p-btn">Repo</button>
+              <a href="https://www.amazon.com/dp/B07SG6TNSB/ref=apps_sf_sta" target='_blank' rel='noreferrer'>
+                <button className="button p-btn">Link</button>
               </a>
-              <a href="https://play.google.com/store/apps/details?id=com.nimplay.School_music&hl=en&gl=US">
-                <button className="button p-btn">Live</button>
-              </a>
-
             </div>
             </div>
-
           </div>
         </SwiperSlide>
 

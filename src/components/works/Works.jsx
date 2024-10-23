@@ -4,7 +4,7 @@ import Msdoo from '../../img/msdoo2.png'
 import Canaway from '../../img/canawaylogo.png'
 import Nimplay from '../../img/nimplayLogo.jpg'
 import Microverse from '../../img/microverse.png'
-import David from '../../img/davidLogo.jpeg'
+import Immiland from '../../img/immilandLogo.png'
 import Background from '../../img/2.png'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
@@ -56,7 +56,7 @@ const Works = () => {
           <img src={Microverse} alt="microverse" />
         </div>
         <div className="w-secCircle">
-          <img src={David} alt="" />
+          <img src={Immiland} alt="" />
         </div>
       </motion.div>
       <img src={Background} alt="" className="w-backCircle blueCircle"/>
