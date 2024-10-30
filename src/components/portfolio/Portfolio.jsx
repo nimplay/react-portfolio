@@ -51,80 +51,11 @@ const Portfolio = () => {
                 <h3 className="tech-name">React</h3>
                 <h3 className="tech-name">Tailwind</h3>
                 <h3 className="tech-name">NestJs</h3>
-                <h3 className="tech-name">PostgresQL</h3>
                 <h3 className="tech-name">API'S</h3>
               </div>
             <div className="p-buttons" >
               <a href="https://immiland.app" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Link</button>
-              </a>
-            </div>
-            </div>
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="project-card">
-            <img src={Webapp} alt="img" />
-            <div className="project-description">
-            <span style={{
-        backgroundColor: darkMode ? "black" : "white",
-        color: darkMode ? "white" : "",
-      }} >Webapp</span>
-            <span>
-              Streaming platform TV shows, and more.
-            </span>
-            <span>This project is the Microverse's project.
-              Its a web application based on an external API
-              tvmaze that shows list of movies which can be liked and
-              commented. We selected this API that provides data about
-              Movies.</span>
-              <div className="tech">
-                <h3 className="tech-name">HTML</h3>
-                <h3 className="tech-name">CSS</h3>
-                <h3 className="tech-name">JavaScript</h3>
-                <h3 className="tech-name">Webpack</h3>
-                <h3 className="tech-name">API'S</h3>
-                <h3 className="tech-name">GitHub</h3>
-              </div>
-            <div className="p-buttons" >
-              <a href="https://github.com/nimplay/api-webapp" target='_blank' rel='noreferrer'>
-                <button className="button p-btn">Repo</button>
-              </a>
-              <a href="https://nimplay.github.io/api-webapp/dist/" target='_blank' rel='noreferrer'>
-                <button className="button p-btn">Live</button>
-              </a>
-            </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="project-card">
-            <img src={Poke} alt="pokeapi" />
-            <div className="project-description">
-            <span style={{
-        backgroundColor: darkMode ? "black" : "white",
-        color: darkMode ? "white" : "",
-      }} >PokeApi</span>
-            <span>
-            Apis consumption using React & Redux
-            </span>
-            <span>This project is the Microverse's Numeric Webapp
-              project. Its a web application for use react and
-              redux that is a simple app that use an API .</span>
-              <div className="tech">
-                <h3 className="tech-name">API'S</h3>
-                <h3 className="tech-name">React</h3>
-                <h3 className="tech-name">Redux</h3>
-                <h3 className="tech-name">GitHub</h3>
-              </div>
-            <div className="p-buttons" >
-              <a href="https://github.com/nimplay/metrics-webapp" target='_blank' rel='noreferrer'>
-                <button className="button p-btn">Repo</button>
-              </a>
-              <a href="https://tourmaline-crisp-2b65af.netlify.app/" target='_blank' rel='noreferrer'>
-                <button className="button p-btn">Live</button>
               </a>
             </div>
             </div>
@@ -182,7 +113,7 @@ const Portfolio = () => {
             </span>
               <div className="tech">
                 <h3 className="tech-name">GML</h3>
-                <h3 className="tech-name">Google Play Store</h3>
+                <h3 className="tech-name">Amazon App Store</h3>
               </div>
             <div className="p-buttons" >
               <a href="https://www.amazon.com/dp/B07SG6TNSB/ref=apps_sf_sta" target='_blank' rel='noreferrer'>
@@ -192,14 +123,6 @@ const Portfolio = () => {
             </div>
           </div>
         </SwiperSlide>
-
-
-
-
-
-
-
-
       </Swiper>
     </div>
    );
