@@ -59,7 +59,35 @@ const Portfolio = () => {
             </div>
           </div>
         </SwiperSlide>
-
+        <SwiperSlide>
+          <div className="project-card">
+            <img src={SchoolMusic} alt="img" />
+            <div className="project-description">
+            <span style={{
+        backgroundColor: darkMode ? "black" : "white",
+        color: darkMode ? "white" : "",
+      }} >School Music</span>
+            <span>
+              App for Music Learning.
+            </span>
+            <span>
+               Join us in the adventure of learning to read music.
+               The different practical-theoretical exercises will
+               allow you to train progressively and in a fun and
+               entertaining way, while you play.
+            </span>
+              <div className="tech">
+                <h3 className="tech-name">GML</h3>
+                <h3 className="tech-name">Amazon App Store</h3>
+              </div>
+            <div className="p-buttons" >
+              <a href="https://www.amazon.com/dp/B07SG6TNSB/ref=apps_sf_sta" target='_blank' rel='noreferrer'>
+                <button className="button p-btn">Link</button>
+              </a>
+            </div>
+            </div>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
           <div className="project-card">
             <img src={Tetris} alt="img" />
@@ -86,36 +114,6 @@ const Portfolio = () => {
               </a>
               <a href="https://nimplay.github.io/tetris/" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Live</button>
-              </a>
-            </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="project-card">
-            <img src={SchoolMusic} alt="img" />
-            <div className="project-description">
-            <span style={{
-        backgroundColor: darkMode ? "black" : "white",
-        color: darkMode ? "white" : "",
-      }} >School Music</span>
-            <span>
-              App for Music Learning.
-            </span>
-            <span>
-               Join us in the adventure of learning to read music.
-               The different practical-theoretical exercises will
-               allow you to train progressively and in a fun and
-               entertaining way, while you play.
-            </span>
-              <div className="tech">
-                <h3 className="tech-name">GML</h3>
-                <h3 className="tech-name">Amazon App Store</h3>
-              </div>
-            <div className="p-buttons" >
-              <a href="https://www.amazon.com/dp/B07SG6TNSB/ref=apps_sf_sta" target='_blank' rel='noreferrer'>
-                <button className="button p-btn">Link</button>
               </a>
             </div>
             </div>
