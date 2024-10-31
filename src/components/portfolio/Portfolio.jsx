@@ -4,8 +4,6 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import { Pagination } from "swiper";
 import SchoolMusic from '../../img/SchoolMusic.png';
 import Tetris from '../../img/Tetris.png';
-import Webapp from '../../img/webapp.png';
-import Poke from '../../img/poke.png';
 import ImmilandScreem from '../../img/ImmilandScreem.png';
 import 'swiper/css';
 import "swiper/css/pagination";
