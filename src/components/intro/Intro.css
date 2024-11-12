@@ -108,7 +108,9 @@
 
 @media screen and (max-width: 1200px) {
   .intro {
+    padding-top: 5rem;
     flex-direction: column;
+    height: 40rem;
   }
 
   .i-right {
