@@ -57,7 +57,7 @@ textarea {
   height: 2rem;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   .c-right .user {
     width: 90%;
     height: 1.5rem;
@@ -68,7 +68,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 780px){
   .contact-form {
     padding: 0 1rem 0 1rem;
     gap: 1rem;

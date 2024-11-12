@@ -104,7 +104,7 @@
   width: 6rem;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   .portfolio {
     padding: 0 1rem 0 1rem;
     height: 50vh;
@@ -185,7 +185,7 @@
 
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 780px) {
 
   .portfolio {
     padding: 0 1rem 0 1rem;

@@ -106,7 +106,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   .intro {
     flex-direction: column;
   }
@@ -121,7 +121,7 @@
 
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 780px) {
   .intro {
     flex-direction: column;
     padding-top: 1rem;

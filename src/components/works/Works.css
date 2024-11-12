@@ -91,7 +91,7 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   .works {
     padding: 0 1rem 0 1rem;
     display: flex;
@@ -102,7 +102,7 @@
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 780px) {
   .works {
     padding: 0 1rem 0 1rem;
     display: flex;

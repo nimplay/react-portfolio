@@ -53,7 +53,7 @@
   color: var(--orange);
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   .n-list {
     display: none;
   }
@@ -63,7 +63,7 @@
 
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 780px) {
   .n-list {
     display: none;
   }

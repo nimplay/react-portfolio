@@ -39,7 +39,7 @@ const Services = () => {
     </div>
     <div className="cards">
      <motion.div
-     initial={{left:'30rem'}}
+     initial={{left:'20rem', top:'-3rem'}}
      whileInView={{left:'15rem'}}
      transition={transition}
      >
@@ -61,8 +61,8 @@ const Services = () => {
        />
      </motion.div>
      <motion.div
-     initial={{left:'25rem', top:'25rem'}}
-     whileInView={{left:'11rem', top:'21rem'}}
+     initial={{left:'25rem', top:'20rem'}}
+     whileInView={{left:'11rem', top:'18rem'}}
      transition={transition}
      >
        <Card

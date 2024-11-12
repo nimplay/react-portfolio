@@ -45,7 +45,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   .services {
     flex-direction: column;
   }
@@ -70,7 +70,7 @@
 
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 780px){
   .services {
     margin-top: 0;
     flex-direction: column;
