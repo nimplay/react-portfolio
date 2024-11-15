@@ -5,6 +5,7 @@ import { Pagination } from "swiper";
 import SchoolMusic from '../../img/SchoolMusic.png';
 import Tetris from '../../img/Tetris.png';
 import ImmilandScreem from '../../img/ImmilandScreem.png';
+import Senoragarabato from '../../img/senoragarabato.png';
 import 'swiper/css';
 import "swiper/css/pagination";
 import { themeContext } from '../../Context';
@@ -53,6 +54,30 @@ const Portfolio = () => {
               </div>
             <div className="p-buttons" >
               <a href="https://immiland.app" target='_blank' rel='noreferrer'>
+                <button className="button p-btn">Link</button>
+              </a>
+            </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="project-card">
+            <img src={Senoragarabato} alt="img" />
+            <div className="project-description">
+            <span style={{
+        backgroundColor: darkMode ? "black" : "white",
+        color: darkMode ? "white" : "",
+      }} >Señora Garabato</span>
+            <span>
+            Illustration | Character Design | Animation
+            </span>
+            <span>Personal portfolio and portraits store for a talented Venezuelan illustrator.</span>
+              <div className="tech">
+                <h3 className="tech-name">Ruby on Rails</h3>
+                <h3 className="tech-name">AWS</h3>
+              </div>
+            <div className="p-buttons" >
+              <a href="https://www.senoragarabato.com" target='_blank' rel='noreferrer'>
                 <button className="button p-btn">Link</button>
               </a>
             </div>
