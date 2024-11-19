@@ -4,6 +4,7 @@ import './Navbar.css';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 import {Link} from 'react-scroll'
+import Nimplay from '../../img/newLogo.png'
 
 
 const Navbar = () => {
@@ -16,7 +17,7 @@ const Navbar = () => {
       }}
     >
       <div className="n-left">
-        <div className="n-name">Nimplay</div>
+        <img src={Nimplay} alt="Nimplay" className='n-logo ' />
         <Toggle/>
       </div>
       <div className="n-right">

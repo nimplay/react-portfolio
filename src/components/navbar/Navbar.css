@@ -9,17 +9,22 @@
   padding-top: 1rem;
 }
 
+
 .n-left {
   flex: 1;
   align-items: center;
   display: flex;
-  gap: 2rem;
 }
 
 .n-name {
   font-size: 1.3rem;
   font-weight: bold;
 }
+
+.n-logo {
+  width: 128px;
+}
+
 
 .n-right {
   display: flex;

@@ -2,7 +2,7 @@ import React from 'react';
 import './Works.css';
 import Msdoo from '../../img/msdoo2.png'
 import Canaway from '../../img/canawaylogo.png'
-import Nimplay from '../../img/nimplayLogo.jpg'
+import Nimplay from '../../img/newLogo.png'
 import Microverse from '../../img/microverse.png'
 import Immiland from '../../img/immilandLogo.png'
 import Background from '../../img/2.png'
@@ -47,10 +47,9 @@ const Works = () => {
           <img src={Canaway} alt="canaway"/>
         </div>
         <div className="w-secCircle">
-          <img src={Nimplay} alt="nimplay" />
+          <img src={Msdoo} alt="Msdoo" />
         </div>
         <div className="w-secCircle">
-          <img src={Msdoo} alt="nimplay" />
         </div>
         <div className="w-secCircle">
           <img src={Microverse} alt="microverse" />
