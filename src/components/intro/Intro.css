@@ -1,7 +1,8 @@
 .intro {
   display: flex;
-  height: 80vh;
-  padding-top: 15rem;
+  height: auto;
+  margin-bottom: 2rem;
+  padding-top: 10rem;
   gap: 2rem;
 }
 
