@@ -7,9 +7,9 @@
 }
 
 .i-left {
+  width: 50%;
   display: flex;
   position: relative;
-  flex: 1;
   flex-direction: column;
   gap: 2rem;
 }
@@ -91,7 +91,7 @@
 }
 
 .nimplay-logo {
-  width: 20rem;
+  width: 10rem;
   border-radius: 100%;
 }
 
@@ -134,6 +134,8 @@
     transform: scale(0.8);
     left: -1rem;
     width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   .i-icons {
@@ -195,7 +197,7 @@
   }
 
   .nimplay-logo {
-    width: 18rem;
+    width: 10rem;
     border-radius: 100%;
   }
 
