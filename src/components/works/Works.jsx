@@ -50,6 +50,7 @@ const Works = () => {
           <img src={Msdoo} alt="Msdoo" />
         </div>
         <div className="w-secCircle">
+          <img src={Nimplay} alt="nimplay" />
         </div>
         <div className="w-secCircle">
           <img src={Microverse} alt="microverse" />
