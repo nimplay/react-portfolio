@@ -9,7 +9,6 @@
   padding-top: 1rem;
 }
 
-
 .n-left {
   flex: 1;
   align-items: center;
@@ -25,7 +24,6 @@
 .n-logo {
   width: 68px;
 }
-
 
 .n-right {
   display: flex;
@@ -81,5 +79,8 @@
   }
   .n-name {
     display: none;
+  }
+  .n-logo {
+    width: 50px;
   }
 }

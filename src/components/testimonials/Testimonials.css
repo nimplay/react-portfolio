@@ -28,10 +28,10 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem;
-  width: 30rem;
-  height: 18rem;
-  background: rgba(250, 250, 250, 0.3);
-  border: 10px solid var(--blueCard);
+  width: 50%;
+  height: auto;
+  background: rgb(0, 0, 0);
+  border: 5px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 30px;
   gap: 1rem;
@@ -50,7 +50,7 @@
 
 .t-wrapper .swiper {
   width: 100%;
-  height: 60%;
+  height: 55%;
 }
 
 .t-wrapper .swiper-slide {
