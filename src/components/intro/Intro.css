@@ -2,7 +2,7 @@
   display: flex;
   height: auto;
   margin-bottom: 2rem;
-  padding-top: 14rem;
+  padding-top: 8rem;
   gap: 2rem;
 }
 
@@ -75,13 +75,12 @@
 
 .i-right>:nth-child(1) {
   transform: scale(1);
-    top: -17%;
 }
 
 .i-right>:nth-child(2) {
   transform: scale(0.67);
     left: -8rem;
-    top: -14.2rem;
+    top: -10rem;
 }
 
 .i-right>:nth-child(4) {
@@ -107,6 +106,10 @@
   display: none;
 }
 
+.i-right3 {
+  display: none;
+}
+
 .skill-icon {
   width: 50px;
   height: 50px;
@@ -121,11 +124,36 @@
   }
 
   .i-right {
+    display: none;
+  }
+
+  .i-right3 {
     display: flex;
     transform: scale(0.7);
     left: 3rem;
     top: 2rem;
     position: relative;
+  }
+
+  .i-right3>* {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .i-right3>:nth-child(1) {
+    transform: scale(1);
+  }
+
+  .i-right3>:nth-child(2) {
+    transform: scale(0.67);
+      left: -8rem;
+      top: -10rem;
+  }
+
+  .i-right3>:nth-child(4) {
+    transform: scale(1);
+    left: -5%;
+    top: -10%;
   }
 
 }

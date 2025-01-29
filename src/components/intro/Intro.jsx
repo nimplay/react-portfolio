@@ -148,7 +148,7 @@ const Intro = () => {
 
         <motion.img
           initial={{ left: "-10%" }}
-          whileInView={{ left: "-10%", top: "-27%" }}
+          whileInView={{ left: "-10%", top: "-6%" }}
           transition={transition}
           src={Nimplay}
           alt="img"
@@ -157,34 +157,72 @@ const Intro = () => {
 
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ top: "-14%", left: "70%" }}
+          whileInView={{ top: "2%", left: "70%" }}
           transition={transition}
         >
           <FloatingDiv image={Work} txt1="Web" txt2="Developer" />
         </motion.div>
 
         <motion.div
-          initial={{ top: "18rem", left: "0" }}
-          whileInView={{ left: "10%" }}
+          initial={{ top: "60%", left: "0" }}
+          whileInView={{ top: "65%", left: "10%" }}
           transition={transition}
         >
           <FloatingDiv image={ThumbsUp} txt1="Great Desing" txt2="Award" />
         </motion.div>
 
         <motion.div
-          initial={{ top: "12rem", left: "20%" }}
-          whileInView={{ left: "65%" }}
+          initial={{ top: "50%", left: "20%" }}
+          whileInView={{ top: "60%", left: "65%" }}
           transition={transition}
         >
           <FloatingDiv image={VideoG} txt1="Game" txt2="Developer" />
         </motion.div>
       </div>
+      <div className="i-right3">
+        <img src={Background} alt="Vector" className="texture" />
+        <img src={Nim} alt="Boy" className="boy" />
+
+        <motion.img
+          initial={{ left: "-10%" }}
+          whileInView={{ left: "-10%", top: "-6%" }}
+          transition={transition}
+          src={Nimplay}
+          alt="img"
+          className="nimplay-logo"
+        />
+
+        <motion.div
+          initial={{ top: "-4%", left: "60%" }}
+          whileInView={{ top: "2%", left: "50%" }}
+          transition={transition}
+        >
+          <FloatingDiv image={Work} txt1="Web" txt2="Developer" />
+        </motion.div>
+
+        <motion.div
+          initial={{ top: "20rem%", left: "0" }}
+          whileInView={{ top: "25rem", left: "-5%" }}
+          transition={transition}
+        >
+          <FloatingDiv image={ThumbsUp} txt1="Great Desing" txt2="Award" />
+        </motion.div>
+
+        <motion.div
+          initial={{ top: "18rem", left: "10%" }}
+          whileInView={{ top: "22rem", left: "45%" }}
+          transition={transition}
+        >
+          <FloatingDiv image={VideoG} txt1="Game" txt2="Developer" />
+        </motion.div>
+      </div>
+
       <div className="i-right2">
         <img src={Background} alt="Vector" className="texture" />
         <img src={Nim} alt="Boy" className="boy" />
         <motion.img
           initial={{ left: "-10%", top: "-70%" }}
-          whileInView={{ left: "-10%", top: "-70%" }}
+          whileInView={{ left: "-10%", top: "-60%" }}
           transition={transition}
           src={Nimplay}
           alt="img"
