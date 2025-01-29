@@ -126,7 +126,6 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    border: 1px solid #ebebeb;
     padding: 1rem;
 
   }
@@ -203,7 +202,6 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    border: 1px solid #ebebeb;
     padding: 1rem;
 
   }

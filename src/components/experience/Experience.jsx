@@ -17,7 +17,7 @@ const Experience = () => {
       }}
       >5+</div>
       <span>Years</span>
-      <span>of Experience</span>
+      <span>Experience</span>
     </div>
     <div className="achivement">
       <div
