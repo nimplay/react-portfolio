@@ -17,7 +17,7 @@ const LaboralExperience = () => {
 
   return (
     <section className="carrusel-section">
-      <Carousel>
+      <Carousel interval={null}>
         <Carousel.Item>
           <div
             className="project-card"
