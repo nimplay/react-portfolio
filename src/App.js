@@ -11,6 +11,7 @@ import Works from './components/works/Works';
 import { themeContext } from './Context';
 import { useContext } from 'react';
 
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -20,8 +21,8 @@ function App() {
       backgroundColor: darkMode ? "black" : "white",
       color: darkMode ? "white" : "",
     }}
-    >  
-    <Navbar/>  
+    >
+    <Navbar/>
     <Intro/>
     <Services/>
     <Experience/>

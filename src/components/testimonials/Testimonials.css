@@ -1,17 +1,17 @@
 .t-wrapper {
   padding: 0rem 3rem 0 3rem;
-  height: 110vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  margin-top: 8rem;
   position: relative;
+  margin-top: 4rem;
 }
 
 .t-heading {
   align-self: start;
+  margin-bottom: 2rem;
 }
 .t-heading>* {
  font-size: 2rem;
@@ -25,16 +25,14 @@
 .testimonial {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 1rem;
-  width: 90%;
+  padding: 2rem 8rem;
   height: auto;
-  background: rgb(0, 0, 0);
-  border: 5px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 30px;
   gap: 1rem;
+  height: 26rem;
 }
 
 .testimonial>img {
@@ -48,35 +46,6 @@
   font-weight: 100;
 }
 
-.t-wrapper .swiper {
-  width: 100%;
-  height: 55%;
-}
-
-.t-wrapper .swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.t-wrapper .swiper-pagination{
-  bottom: 1rem;
-}
-
-.t-wrapper .swiper-pagination-bullet{
-  width: 15px;
-  height: 15px;
-  background: var(--purple);
-  opacity: 1;
-}
-
-.t-wrapper .swiper-pagination-bullet-active{
-  width: 20px;
-  height: 20px;
-  background: var(--orange);
-  opacity: 1;
-}
 
 @media screen and (max-width: 780px) {
   .t-wrapper {
@@ -85,10 +54,7 @@
     height: max-content;
   }
 
-  .t-wrapper .swiper-slide {
-    margin-top: 2rem;
-    align-items: flex-start;
-  }
+
 
   .t-heading {
     width: 100%;
@@ -117,24 +83,6 @@
 
   .testimonial>span {
     font-size: 0.9rem;
-  }
-
-  .t-wrapper .swiper {
-    height: 100%;
-  }
-
-  .t-wrapper .swiper-pagination{
-    top: 0;
-  }
-
-  .t-wrapper .swiper-pagination-bullet{
-    width: 10px;
-    height: 10px;
-  }
-
-  .t-wrapper .swiper-pagination-bullet-active{
-    width: 15px;
-    height: 15px;
   }
 
 }

@@ -1,6 +1,5 @@
 .card {
   width: 12rem;
-  height: 14rem;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -8,13 +7,13 @@
   align-items: center;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.26);
-  border: 10px solid var(--orange);
+  border: 1px solid var(--orange);
   box-shadow: var(--boxShadow);
   border-radius: 30px;
   padding: 26px 26px 2rem 26px;
 }
 .img {
-  width: 5.5rem;
+  width: 4rem;
 }
 
 .card span:nth-of-type(2){

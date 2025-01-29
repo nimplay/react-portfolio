@@ -1,7 +1,7 @@
 .services {
   padding: 8rem 3rem 0 3rem;
   display : flex;
-  height: 35rem;
+  height: 45rem;
 }
 
 .awesome {
@@ -36,6 +36,7 @@
 
 .cards {
   position: relative;
+  margin-top: 5rem;
 }
 .cards > * {
   position: absolute;

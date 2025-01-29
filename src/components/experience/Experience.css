@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  height: 30vh;
   margin-bottom: 8rem;
   padding-top: 8rem;
 }
@@ -46,7 +45,6 @@
     transform: scale(0.5);
     gap: 3rem;
     margin-bottom: 0;
-    height: 20vh;
   }
 
   .achivement span:nth-of-type(1) {

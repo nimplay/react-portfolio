@@ -15,6 +15,26 @@ import Nimplay from "../../img/newLogo.png";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+import HTML from "../../img/HTML.svg";
+import Css from "../../img/css.svg";
+import BoostrapIcon from "../../img/boostrap.svg";
+import Tailwind from "../../img/tailwind.svg";
+import Javascript from "../../img/javascript.svg";
+import ReactIcon from "../../img/react.svg";
+import Typescript from "../../img/typescript.svg";
+import Flowbite from "../../img/flowbite-logo.png";
+import Angular from "../../img/angular.svg";
+import Figma from "../../img/figma.svg";
+import NodeIcon from "../../img/node.svg";
+import Python from "../../img/python.svg";
+import Django from "../../img/django.svg";
+import Flask from "../../img/flask.svg";
+import FastApi from "../../img/fastapi.svg";
+import Ruby from "../../img/ruby.svg";
+import RubyOnRails from "../../img/Ruby-on-Rails-Logo-2004.png";
+import Swagger from "../../img/swagger.svg";
+import Unreal from "../../img/unreal.svg";
+import Unity from "../../img/unity.svg";
 
 const Intro = () => {
   const transition = { duration: 4, type: "spring" };
@@ -34,49 +54,92 @@ const Intro = () => {
             Hi! I'm
           </span>
           <span>Nimrod Acosta</span>
+          <div className="i-icons">
+            <a
+              href="https://github.com/nimplay"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Github} className="skill-icon" alt="Github" />
+            </a>
+            <a
+              href="https://www.facebook.com/NimplayGame"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Facebook} className="skill-icon" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nimrod-acosta/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Linkedin} className="skill-icon" alt="Linkedin" />
+            </a>
+            <a
+              href="https://angel.co/u/nimrod-acosta"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Angelist} className="skill-icon" alt="Angelist" />
+            </a>
+            <a
+              href="https://medium.com/@nimrod7day"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Medium} className="skill-icon" alt="Medium" />
+            </a>
+          </div>
           <span
             style={{
               backgroundColor: darkMode ? "black" : "white",
               color: darkMode ? "white" : "",
             }}
           >
-            Full Stack Developer with high level of experience in the web
-            designing
-            <br /> and apps development. I have a passion for do Quality work
+            Highly Skilled FullStack Developer | Specialized in Node.js, Ruby on
+            Rails, Python, Django, Fast-api, Flask, MySQL, MongoDB, PostgresQL,
+            Javascript, React, Typescript, Tailwind, Boostrap & Figma.
           </span>
         </div>
-        <div className="i-icons">
-          <a href="https://github.com/nimplay" target="_blank" rel="noreferrer">
-            <img src={Github} alt="Github" />
-          </a>
-          <a
-            href="https://www.facebook.com/NimplayGame"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={Facebook} alt="Facebook" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nimrod-acosta/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={Linkedin} alt="Linkedin" />
-          </a>
-          <a
-            href="https://angel.co/u/nimrod-acosta"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={Angelist} alt="Angelist" />
-          </a>
-          <a
-            href="https://medium.com/@nimrod7day"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={Medium} alt="Medium" />
-          </a>
+        <div>
+          <span className="portfolio-subtitle">My Skills</span>
+          <div>
+            <span>Frontend</span>
+            <div>
+              <img src={HTML} className="skill-icon" alt="HTML" />
+              <img src={Css} className="skill-icon" alt="CSS" />
+              <img src={BoostrapIcon} className="skill-icon" alt="bosstrap" />
+              <img src={Tailwind} className="skill-icon" alt="tailwind" />
+              <img src={Javascript} className="skill-icon" alt="Javascript" />
+              <img src={ReactIcon} className="skill-icon" alt="React" />
+              <img src={Typescript} className="skill-icon" alt="Typescript" />
+              <img src={Flowbite} className="skill-icon" alt="flowbite" />
+              <img src={Angular} className="skill-icon" alt="Angular" />
+              <img src={Figma} className="skill-icon" alt="Figma" />
+            </div>
+          </div>
+          <div>
+            <span>Backend</span>
+            <div>
+              <img src={NodeIcon} className="skill-icon" alt="Node" />
+              <img src={Python} className="skill-icon" alt="Python" />
+              <img src={Ruby} className="skill-icon" alt="Ruby" />
+              <img src={Typescript} className="skill-icon" alt="Typescript" />
+              <img src={Django} className="skill-icon" alt="Django" />
+              <img src={Flask} className="skill-icon" alt="Flask" />
+              <img src={FastApi} className="skill-icon" alt="React" />
+              <img src={RubyOnRails} className="skill-icon" alt="RubyOnRails" />
+              <img src={Swagger} className="skill-icon" alt="Swagger" />
+            </div>
+          </div>
+          <div>
+            <span>Game Development</span>
+            <div>
+              <img src={Unreal} className="skill-icon" alt="Unreal" />
+              <img src={Unity} className="skill-icon" alt="Unity" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="i-right">

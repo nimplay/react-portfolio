@@ -15,7 +15,7 @@ const Experience = () => {
         backgroundColor: darkMode ? "black" : "white",
         color: darkMode ? "white" : "",
       }}
-      >4+</div>
+      >5+</div>
       <span>Years</span>
       <span>of Experience</span>
     </div>
@@ -26,7 +26,7 @@ const Experience = () => {
         backgroundColor: darkMode ? "black" : "white",
         color: darkMode ? "white" : "",
       }}
-      >20+</div>
+      >50+</div>
       <span>Completed</span>
       <span>Projects</span>
     </div>

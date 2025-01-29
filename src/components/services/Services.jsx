@@ -30,19 +30,19 @@ const Services = () => {
             color: darkMode ? "white" : "",
           }}
         >
-          My services range from web development, mobile applications,
-          databases,
-          <br />
-          video game development using engines such as Unreal Egine or Unity
-          Engine, <br />
-          Music and sound effects for web environments.
+          I offer a wide range of services, including web development, <br/>mobile
+          applications, and database management, ensuring scalable <br/> and
+          high-performance solutions. Additionally, I specialize in video game <br/>
+          development using powerful engines like Unreal Engine and Unity, <br/>
+          handling everything from game mechanics to immersive visuals.
         </span>
-        <a href="https://drive.google.com/file/d/1BWzm5iECNtHo7tfXQqN-qbCd-M9zxbu-/view?usp=sharing">
-          <button className="button s-button">Download CV</button>
+        <a href="https://drive.google.com/file/d/1YcaC-Bxcye0H1xLjyx70woIAl8UZH3c4/view?usp=sharing">
+          <button className="button s-button">View CV</button>
         </a>
       </div>
       <div className="cards">
         <motion.div
+          className="box"
           initial={{ left: "20rem", top: "10rem" }}
           whileInView={{ left: "10rem", top: "16rem" }}
           transition={transition}
@@ -51,11 +51,12 @@ const Services = () => {
             emoji={Computer}
             heading={"Frontend Development"}
             details={
-              "I can create a beautiful and scalable SPA using HTML, CSS, Tailwind, SASS, React, Redux, Bootstrap, Material UI, etc."
+              "I can create a beautiful and scalable SPA using HTML, CSS, Tailwind, SASS, React, Redux, Bootstrap, Agular, Flowbite, Tailwind etc."
             }
           />
         </motion.div>
         <motion.div
+          className="box"
           initial={{ left: "-35rem", top: "14rem" }}
           whileInView={{ left: "-30rem", top: "16rem" }}
           transition={transition}
@@ -64,12 +65,13 @@ const Services = () => {
             emoji={Work}
             heading={"Backend Development"}
             details={
-              "I can develop a backend using Node.js, Ruby & Rails, Ruby, MySQL, Phytom, etc."
+              "I can develop a backend using Node.js, Ruby & Rails, Ruby, TypeScript, MySQL, Phytom, Django, Flask, etc."
             }
           />
         </motion.div>
         <motion.div
-          initial={{ left: "0rem", top: "20rem" }}
+          className="box"
+          initial={{ left: "0rem", top: "15rem" }}
           whileInView={{ left: "-10rem", top: "16rem" }}
           transition={transition}
         >
