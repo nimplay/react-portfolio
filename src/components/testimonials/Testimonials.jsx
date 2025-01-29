@@ -51,7 +51,7 @@ const Testimonials = () => {
       </div>
 
       <section className="carrusel-section">
-        <Carousel>
+        <Carousel interval={null}>
           {client.map((client) => {
             return (
               <Carousel.Item>
