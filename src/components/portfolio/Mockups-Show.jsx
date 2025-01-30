@@ -74,7 +74,7 @@ const Muckups = () => {
                 </div>
                 <div className="p-buttons">
                   <a
-                    href="https://www.amazon.com/dp/B07SG6TNSB/ref=apps_sf_sta"
+                    href="https://angular-store-muckup.netlify.app/store"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -144,7 +144,7 @@ const Muckups = () => {
                 </div>
                 <div className="p-buttons">
                   <a
-                    href="https://www.senoragarabato.com"
+                    href="https://github.com/nimplay/jdangoProject"
                     target="_blank"
                     rel="noreferrer"
                   >

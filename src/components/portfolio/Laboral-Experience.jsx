@@ -154,7 +154,7 @@ const LaboralExperience = () => {
               </div>
               <div className="p-buttons">
                 <a
-                  href="https://www.senoragarabato.com"
+                  href="https://canaway.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -231,7 +231,7 @@ const LaboralExperience = () => {
               </div>
               <div className="p-buttons">
                 <a
-                  href="https://nimplay.github.io/my-portfolio/"
+                  href="https://www.microverse.org/"
                   target="_blank"
                   rel="noreferrer"
                 >

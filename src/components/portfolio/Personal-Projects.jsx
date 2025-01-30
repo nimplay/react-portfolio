@@ -135,7 +135,7 @@ const PersonalProjects = () => {
               </div>
               <div className="p-buttons">
                 <a
-                  href="https://www.senoragarabato.com"
+                  href="https://nimplay.github.io/tetris/"
                   target="_blank"
                   rel="noreferrer"
                 >
