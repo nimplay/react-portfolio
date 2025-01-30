@@ -62,15 +62,6 @@ const LaboralExperience = () => {
                     color: darkMode ? "white" : "",
                   }}
                 >
-                  Tailwind
-                </h3>
-                <h3
-                  className="tech-name"
-                  style={{
-                    backgroundColor: darkMode ? "#1b1b1b" : "white",
-                    color: darkMode ? "white" : "",
-                  }}
-                >
                   NestJs
                 </h3>
                 <h3
@@ -82,15 +73,7 @@ const LaboralExperience = () => {
                 >
                  Python
                 </h3>
-                <h3
-                  className="tech-name"
-                  style={{
-                    backgroundColor: darkMode ? "#1b1b1b" : "white",
-                    color: darkMode ? "white" : "",
-                  }}
-                >
-                  API'S
-                </h3>
+
                 <h3
                   className="tech-name"
                   style={{
@@ -199,7 +182,7 @@ const LaboralExperience = () => {
                     color: darkMode ? "white" : "",
                   }}
                 >
-                  Ruby on Rails
+                  RoR
                 </h3>
                 <h3
                   className="tech-name"
@@ -210,15 +193,7 @@ const LaboralExperience = () => {
                 >
                   React
                 </h3>
-                <h3
-                  className="tech-name"
-                  style={{
-                    backgroundColor: darkMode ? "#1b1b1b" : "white",
-                    color: darkMode ? "white" : "",
-                  }}
-                >
-                  Redux
-                </h3>
+
                 <h3
                   className="tech-name"
                   style={{
@@ -276,7 +251,7 @@ const LaboralExperience = () => {
                     color: darkMode ? "white" : "",
                   }}
                 >
-                  Ruby on Rails
+                  RoR
                 </h3>
                 <h3
                   className="tech-name"
