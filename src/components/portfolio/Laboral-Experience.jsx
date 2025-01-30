@@ -166,8 +166,7 @@ const LaboralExperience = () => {
                 Microverse
               </span>
               <span>
-                Technical support in React, React.js, Ruby, Ruby on Rails and
-                Javascript.
+                Fullstack Develop.
               </span>
               <span>
                 Proposed improvements to code organization to improve code
