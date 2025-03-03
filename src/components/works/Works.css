@@ -1,7 +1,7 @@
 .works {
   padding: 0 3rem 0 3rem;
   display: flex;
-  height: 70vh;
+  height: auto;
   margin-bottom: 4rem;
 }
 
@@ -96,7 +96,7 @@
     padding: 0 1rem 0 1rem;
     display: flex;
     flex-direction: column;
-    height: 40rem;
+    height: auto;
     gap: 5rem;
 
   }
@@ -107,7 +107,7 @@
     padding: 0 1rem 0 1rem;
     display: flex;
     flex-direction: column;
-    height: 50rem;
+    height: auto;
     gap: 3rem;
 
   }

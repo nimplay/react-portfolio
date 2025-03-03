@@ -196,6 +196,10 @@
    display: none;
   }
 
+  .i-right3 {
+    display: none;
+   }
+
   .i-right2 {
     display: flex;
     transform: scale(0.5);

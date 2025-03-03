@@ -2,6 +2,7 @@
   padding: 8rem 3rem 0 3rem;
   display : flex;
   height: 45rem;
+  margin-top: 4rem;
 }
 
 .awesome {
@@ -66,8 +67,10 @@
 
   .mobile-card {
     transform: scale(1);
-    width: 18rem;
-    height: 20rem;
+  }
+
+  .card {
+    height: 25rem !important;
   }
 
 }
@@ -90,11 +93,17 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
+    padding: 0;
+    width: 18rem;
+    justify-content: center;
   }
 
   .mobile-card {
     transform: scale(0.6);
-    width: 12rem;
-    height: 14rem;
+  }
+
+  .card {
+    width: 18rem !important;
+    height: 25rem !important;
   }
 }

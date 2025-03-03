@@ -8,10 +8,11 @@
   padding: 0 3rem 0 3rem;
 }
 
- .carrusel-section{
+.carrusel-section{
   width: 100%;
   height: 100%;
  }
+
 .img-boostrap-carrusel {
   width: 50% !important;
   object-fit: cover;
@@ -28,8 +29,6 @@
   color: var(--orange);
   margin-top: 2rem;
 }
-
-
 
 .portfolio .swiper {
   overflow: visible!important;
@@ -52,7 +51,6 @@
   padding: 6rem;
   margin-left: 1rem;
   height: 18em;
-
 }
 
 .project-description {
@@ -188,6 +186,11 @@
     width: 6rem;
   }
 
+  .img-boostrap-carrusel {
+    width: 80% !important;
+    object-fit: cover;
+  }
+
 }
 
 @media screen and (max-width: 780px) {
@@ -195,6 +198,7 @@
   .portfolio {
     padding: 0 1rem 0 1rem;
     width: 95%;
+    height: auto;
   }
 
   .project-card {
@@ -265,5 +269,10 @@
   .p-btn {
     font-size: 0.8rem;
     width: 3rem;
+  }
+
+  .img-boostrap-carrusel {
+    width: 90% !important;
+    object-fit: cover;
   }
 }
