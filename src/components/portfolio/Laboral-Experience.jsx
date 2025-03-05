@@ -259,6 +259,15 @@ const LaboralExperience = () => {
                     color: darkMode ? "white" : "",
                   }}
                 >
+                  Astro
+                </h3>
+                <h3
+                  className="tech-name"
+                  style={{
+                    backgroundColor: darkMode ? "#1b1b1b" : "white",
+                    color: darkMode ? "white" : "",
+                  }}
+                >
                   AWS
                 </h3>
               </div>
