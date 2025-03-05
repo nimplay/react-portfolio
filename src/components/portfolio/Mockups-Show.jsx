@@ -201,7 +201,7 @@ const Muckups = () => {
               </div>
               <div className="p-buttons">
                 <a
-                  href="https://github.com/nimplay/jdangoProject"
+                  href="https://github.com/nimplay/mobile-ruby-social"
                   target="_blank"
                   rel="noreferrer"
                 >
