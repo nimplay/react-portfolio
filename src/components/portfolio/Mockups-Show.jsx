@@ -85,7 +85,7 @@ const Muckups = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="button p-btn">Link</button>
+                  <button className="button p-btn">Repo</button>
                 </a>
               </div>
             </div>
@@ -205,7 +205,7 @@ const Muckups = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="button p-btn">Link</button>
+                  <button className="button p-btn">Repo</button>
                 </a>
               </div>
             </div>
@@ -278,7 +278,7 @@ const Muckups = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="button p-btn">Link</button>
+                  <button className="button p-btn">Repo</button>
                 </a>
               </div>
             </div>
